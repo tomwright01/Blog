@@ -9,7 +9,7 @@ title:               Poole
 tagline:             The Jekyll Butler
 url:                 http://getpoole.com
 paginate:            1
-baseurl:             ""
+baseurl:             "http://tomwright01.github.io/tomwright.github.io"
 
 # Assets
 #
@@ -28,3 +28,10 @@ author:
 version:             1.0.0
 github:
   repo:              https://github.com/poole/poole
+
+# navbar
+pages_list:
+	About: '/about'
+	Archive: '/archive'
+	Feed '/atom.xml'
+
