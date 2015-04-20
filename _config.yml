@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:              TomWright 
+tagline:            Thoughts and actions 
+url:                 http://tomwright.ca
 paginate:            1
 baseurl:             "http://tomwright01.github.io/Blog"
 
@@ -20,8 +20,8 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
+  name:              Tom Wright
+  url:               https://plus.google.com/+TomWright1/posts
   email:             markdotto@gmail.com
 
 # Custom vars
