@@ -40,7 +40,7 @@ My ardiuno is the UNO rev3, it does not support bluetooth. The HC-05 module is a
 
 To place the module into command mode you need to apply a voltage to Key (34) (see image below) when you power it up. The LED should start to flash once every 2 seconds if you do this correctly.
 
-![HC-05](/_images/HC-05.jpg)
+![HC-05](/images/HC-05.jpg)
 
 Connect the ardunio using USB, fire up the IDE and start the serial port monitor. By default the HC-05 should be listening at a 38400 baud. It now accepts `AT` commands. Type `AT` and click send, you should get an `OK` response. Set the baud rate to 57600, required for pyMata, using the command `AT+UART=57600,0,0`. You can also set the name for the board using `AT+NAME=<yourname>`. While you're here you can also checkout the password with `AT+PASWD?`.
 
