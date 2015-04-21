@@ -19,13 +19,13 @@ Just a few notes on issues I found with the above instructions:
 
 1. The best way to link your blog to the poole templates is to first clone the poole templates:
 
-`git clone git@github.com:poole/poole.git`
+    `git clone git@github.com:poole/poole.git`
 
-then use the we interface to create the github project that will contain your blog and link this with `git remote add`
+    then use the we interface to create the github project that will contain your blog and link this with `git remote add`
 
-`git remote add site git@github.com:<username>/<username>.github.io`
+    `git remote add site git@github.com:<username>/<username>.github.io`
 
-Updates can then be published with `git push site`.
+    Updates can then be published with `git push site`.
 
 2. Jekyll is very sensitive to spaces and tabs. Indenting code with tab characters instead of spaces caused the interpreter to ignore them. Equally extra spaces in the archives.md page meant that links to older posts were not rendered properly.
 
