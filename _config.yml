@@ -9,7 +9,7 @@ title:              TomWright
 tagline:            Thoughts and actions 
 url:                 http://tomwright.ca
 paginate:            1
-baseurl:             "http://tomwright01.github.io/"
+baseurl:             "http://tomwright01.github.io"
 
 # Assets
 #
