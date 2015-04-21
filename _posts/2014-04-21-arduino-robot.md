@@ -48,6 +48,15 @@ Connect the ardunio using USB, fire up the IDE and start the serial port monitor
 
 This bit stumped me for several days. I'm still having some permissions problems, binding the port, and connecting to it still needs to be done as root.
 
+The Tx and Rx connections between HC-05 and the arduino need to be reversed
+
+| Arduino | HC-05|
+| --------|------- |
+| Pin 1   | RXD |
+| Pin 0   | TXD |
+| 3.3V    | VCC |
+| GND     | GND |
+
 1. Find out the mac address for the bluetooth module.
         $hcitool scan
             Scanning ...
@@ -69,6 +78,8 @@ This bit stumped me for several days. I'm still having some permissions problems
 3. Bind to the serial port:
     `sudo rfcomm bind 0 <mac address>`
     This should create the device /dev/rfcomm0
+
+    To test this connect the Rxd and Txd pins on the HC-05 together and use a terminal to connect `screen /dev/rfcomm0 57600`. Anything entered into the terminal should be echo'd straight back.
 
 4. Start the pyMata server
     `sudo python s2a_fm.py /dev/rfcomm0`
