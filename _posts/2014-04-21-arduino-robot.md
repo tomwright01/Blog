@@ -7,7 +7,7 @@ I've been trying to build an [Arduino](http://arduino.cc) controlled robot. My a
 
 I had build the basic unit using lego and tupperware for the chasis, a basic servo for the steering and a distance sensor. 
 
-![Arduino Robot](/images/robot_s.jpg)
+![Arduino Robot](/images/robot_s.jpg "Arduino Robot")
 
 So far so good, it potters around and only occasionally crashes into things. The control code for this robot is in the file [robot_1.ino](https://github.com/tomwright01/arduino-robot. I'm not too happy with the attachment for the steering servo, it's a bit of a waek point. Sometime soon I plan to redesign this bit.
 
