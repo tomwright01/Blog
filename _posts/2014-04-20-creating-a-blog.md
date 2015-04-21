@@ -13,7 +13,7 @@ The site is hosted on [github](www.github.com/tomwright01) which uses [Jekyll](h
 
 Setup was pretty straight forward, examine my [commit log](https://github.com/tomwright01/Blog/commits/gh-pages) to see my mistakes.
 
-* Update *
+**Update**
 
 Just a few notes on issues I found with the above instructions:
 
