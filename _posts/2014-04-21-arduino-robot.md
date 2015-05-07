@@ -5,7 +5,7 @@ title: Arduino robots
 
 I've been trying to build an [Arduino](http://arduino.cc) controlled robot. My aim is to build something that can run wirelessly and be controlled from the [scratch](https://scratch.mit.edu/) programming environment.
 
-I had build the basic unit using lego and tupperware for the chasis, a basic servo for the steering and a distance sensor. 
+The basic unit was built using lego and tupperware for the chasis, a basic servo for the steering and a distance sensor. 
 
 ![Arduino Robot](/images/robot_s.jpg "Arduino Robot")
 
@@ -19,7 +19,7 @@ The next stage of the project was to connect this be able to control the robot u
 
 ## The plan
 
-The plan was to follow the instructions [here](http://www.instructables.com/id/Mobile-Robotics-with-Scratch-How-to-Integrate-Scra/). Basically an arduino sketch [StandardFirmata](https://github.com/firmata/arduino) runs on the arduino enabling control over a serial connection. The serial port of the arduino is connected to bluetooth, then a server application [PyMata](https://github.com/MrYsLab/PyMata) runs on the host computer interpreting scratch output for the arduino. 
+The plan was to follow the instructions [here](http://www.instructables.com/id/Mobile-Robotics-with-Scratch-How-to-Integrate-Scra/). Basically an arduino sketch [StandardFirmata](https://github.com/firmata/arduino) runs on the arduino enabling control over a serial connection. The serial port of the arduino is connected to bluetooth, then a server application [PyMata](https://github.com/MrYsLab/PyMata) runs on the host computer interpreting scratch output for the arduino.
 
 ## Hardware
 
@@ -91,5 +91,3 @@ I had problems running scratch on 64bit linux, fortunately there is a replacemen
 ----
 
 Well this is as far as I have got. I managed to make the arduino LED flash so that gives me hope I will be able to achieve __Total Control__.
-
-
