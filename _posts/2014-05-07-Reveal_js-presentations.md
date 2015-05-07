@@ -3,7 +3,7 @@ layout: post
 title: Presentations with reveal.js
 ---
 
-I needed to give a presentation recently, the topic was ["writing a scientific paper"](http://blog.tomwright.ca/writing-a-scientific-paper).
+I needed to give a presentation recently, the topic was ["writing a scientific paper"](http://blog.tomwright.ca/writing_a_scientific_paper).
 Not the most exciting topic so I decided to use it as an excuse to get familier with [reveal.js](http://lab.hakim.se/reveal-js).
 
 I'm very glad I did.
