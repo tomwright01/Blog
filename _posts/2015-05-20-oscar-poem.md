@@ -14,3 +14,5 @@ caves are very dark at night,
 
 little bat why do you frown?
     did you tinkle upsidedown?
+
+![A bat](/images/bat.jpg "Upsidedown bat")
