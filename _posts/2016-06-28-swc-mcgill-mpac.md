@@ -8,6 +8,7 @@ Recently I have been involved as an instructor in two [software-carpentry](http:
 Comments on this post can be made [here](https://github.com/tomwright01/tomwright01.github.io/blob/gh-pages/_posts/2016-06-28-swc-mcgill-mpac.md).
 
 **Tl;dr**
+
 * Communication with the hosts is essential, they often have different expectations for the workshop that the instructors.
 * Tailoring examples and lesson content to the learners domain pays off with increased motivation and removes cognitive load.
 * Seeking regular feedback from learners allows you to adjust contest as the workshop proceeds.
